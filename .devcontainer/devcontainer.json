@@ -1,0 +1,7 @@
+{
+    "name": "VSCode CAP extension error scenario: 'Error during type generation'",
+    "build": { "dockerfile": "Dockerfile", "args": { "VARIANT": "20" } },
+    "customizations": { "vscode": { "extensions": [ "sapse.vscode-cds" ] } },
+    "forwardPorts": [ 4004 ],
+    "remoteUser": "node"
+}
